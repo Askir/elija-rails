@@ -1,0 +1,527 @@
+Started GET "/artifacts" for 127.0.0.1 at 2019-03-14 01:06:41 +0100
+ [34mBOLT REQUEST:[0m [33m6ms[0m 
+ [34mBOLT REQUEST:[0m [33m94ms[0m 
+ [34mBOLT REQUEST:[0m [33m2ms[0m 
+ [34mBOLT REQUEST:[0m [33m3ms[0m 
+ [36mCYPHER[0m CREATE CONSTRAINT ON (n:`Neo4j::Migrations::SchemaMigration`) ASSERT n.`migration_id` IS UNIQUE 
+ [34mBOLT REQUEST:[0m [33m671ms[0m 
+ [34mBOLT REQUEST:[0m [33m14ms[0m 
+ [34mBOLT REQUEST:[0m [33m2ms[0m 
+ [34mBOLT REQUEST:[0m [33m19ms[0m 
+ [34mBOLT REQUEST:[0m [33m2ms[0m 
+ [34mBOLT REQUEST:[0m [33m2ms[0m 
+ [34mBOLT REQUEST:[0m [33m4ms[0m 
+ [34mBOLT REQUEST:[0m [33m2ms[0m 
+ [34mBOLT REQUEST:[0m [33m3ms[0m 
+ [36mNeo4j::Migrations::SchemaMigration[0m 
+  [36mMATCH[0m (n:`Neo4j::Migrations::SchemaMigration`)
+  [36mRETURN[0m n 
+ [34mBOLT REQUEST:[0m [33m61ms[0m 
+ [34mBOLT REQUEST:[0m [33m2ms[0m 
+  
+Neo4j::PendingMigrationError (Migrations are pending:
+20190314000527
+ To resolve this issue, run:
+
+        bin/rails neo4j:migrate RAILS_ENV=development):
+  
+neo4j (9.2.4) lib/neo4j/migrations.rb:17:in `check_for_pending_migrations!'
+neo4j (9.2.4) lib/neo4j/migrations/check_pending.rb:13:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.2.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/favicon.ico" for 127.0.0.1 at 2019-03-14 01:06:42 +0100
+ [34mBOLT REQUEST:[0m [33m5ms[0m 
+ [34mBOLT REQUEST:[0m [33m16ms[0m 
+ [34mBOLT REQUEST:[0m [33m11ms[0m 
+ [34mBOLT REQUEST:[0m [33m4ms[0m 
+ [36mNeo4j::Migrations::SchemaMigration[0m 
+  [36mMATCH[0m (n:`Neo4j::Migrations::SchemaMigration`)
+  [36mRETURN[0m n 
+ [34mBOLT REQUEST:[0m [33m11ms[0m 
+ [34mBOLT REQUEST:[0m [33m4ms[0m 
+  
+Neo4j::PendingMigrationError (Migrations are pending:
+20190314000527
+ To resolve this issue, run:
+
+        bin/rails neo4j:migrate RAILS_ENV=development):
+  
+neo4j (9.2.4) lib/neo4j/migrations.rb:17:in `check_for_pending_migrations!'
+neo4j (9.2.4) lib/neo4j/migrations/check_pending.rb:13:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.2.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+ [34mBOLT REQUEST:[0m [33m2ms[0m 
+ [34mBOLT REQUEST:[0m [33m4ms[0m 
+ [34mBOLT REQUEST:[0m [33m2ms[0m 
+ [34mBOLT REQUEST:[0m [33m2ms[0m 
+ [36mNeo4j::Migrations::SchemaMigration[0m 
+  [36mMATCH[0m (n:`Neo4j::Migrations::SchemaMigration`)
+  [36mRETURN[0m n 
+ [34mBOLT REQUEST:[0m [33m3ms[0m 
+ [34mBOLT REQUEST:[0m [33m2ms[0m 
+ [34mBOLT REQUEST:[0m [33m9ms[0m 
+ [36mCYPHER[0m CREATE (n:`Neo4j::Migrations::SchemaMigration`) SET n = {props} RETURN n | {:props=>{:migration_id=>"20190314000527", :incomplete=>true}}
+ [34mBOLT REQUEST:[0m [33m129ms[0m 
+ [34mBOLT REQUEST:[0m [33m34ms[0m 
+ [34mBOLT REQUEST:[0m [33m2ms[0m 
+ [34mBOLT REQUEST:[0m [33m4ms[0m 
+ [36mCYPHER[0m CREATE CONSTRAINT ON (n:`Artifact`) ASSERT n.`uuid` IS UNIQUE 
+ [34mBOLT REQUEST:[0m [33m84ms[0m 
+ [34mBOLT REQUEST:[0m [33m6ms[0m 
+ [34mBOLT REQUEST:[0m [33m2ms[0m 
+ [36mCYPHER[0m 
+  [36mMATCH[0m (n)
+  [36mWHERE[0m (ID(n) = {ID_n})
+  [33mSET[0m n.`incomplete` = {setter_n_incomplete} | {:ID_n=>0, :setter_n_incomplete=>nil}
+ [34mBOLT REQUEST:[0m [33m134ms[0m 
+ [34mBOLT REQUEST:[0m [33m6ms[0m 
+ [34mBOLT REQUEST:[0m [33m2ms[0m 
+ [34mBOLT REQUEST:[0m [33m16ms[0m 
+ [34mBOLT REQUEST:[0m [33m5ms[0m 
+ [34mBOLT REQUEST:[0m [33m4ms[0m 
+ [36mCYPHER[0m CALL db.constraints() 
+ [34mBOLT REQUEST:[0m [33m17ms[0m 
+ [34mBOLT REQUEST:[0m [33m2ms[0m 
+ [34mBOLT REQUEST:[0m [33m2ms[0m 
+ [36mCYPHER[0m CALL db.indexes() 
+ [34mBOLT REQUEST:[0m [33m10ms[0m 
+ [34mBOLT REQUEST:[0m [33m2ms[0m 
+ [34mBOLT REQUEST:[0m [33m3ms[0m 
+ [34mBOLT REQUEST:[0m [33m4ms[0m 
+ [34mBOLT REQUEST:[0m [33m3ms[0m 
+ [34mBOLT REQUEST:[0m [33m2ms[0m 
+ [36mNeo4j::Migrations::SchemaMigration[0m 
+  [36mMATCH[0m (n:`Neo4j::Migrations::SchemaMigration`)
+  [36mRETURN[0m n 
+ [34mBOLT REQUEST:[0m [33m19ms[0m 
+ [34mBOLT REQUEST:[0m [33m4ms[0m 
+Started GET "/artifacts" for 127.0.0.1 at 2019-03-14 01:07:02 +0100
+ [34mBOLT REQUEST:[0m [33m4ms[0m 
+ [34mBOLT REQUEST:[0m [33m4ms[0m 
+ [34mBOLT REQUEST:[0m [33m2ms[0m 
+ [34mBOLT REQUEST:[0m [33m2ms[0m 
+ [34mBOLT REQUEST:[0m [33m5ms[0m 
+ [34mBOLT REQUEST:[0m [33m4ms[0m 
+ [34mBOLT REQUEST:[0m [33m2ms[0m 
+ [34mBOLT REQUEST:[0m [33m4ms[0m 
+ [34mBOLT REQUEST:[0m [33m2ms[0m 
+ [34mBOLT REQUEST:[0m [33m2ms[0m 
+ [36mNeo4j::Migrations::SchemaMigration[0m 
+  [36mMATCH[0m (n:`Neo4j::Migrations::SchemaMigration`)
+  [36mRETURN[0m n 
+ [34mBOLT REQUEST:[0m [33m6ms[0m 
+ [34mBOLT REQUEST:[0m [33m2ms[0m 
+Processing by ArtifactsController#index as HTML
+ [34mBOLT REQUEST:[0m [33m2ms[0m 
+ [34mBOLT REQUEST:[0m [33m4ms[0m 
+ [34mBOLT REQUEST:[0m [33m2ms[0m 
+ [34mBOLT REQUEST:[0m [33m2ms[0m 
+ [34mBOLT REQUEST:[0m [33m4ms[0m 
+ [34mBOLT REQUEST:[0m [33m2ms[0m 
+ [34mBOLT REQUEST:[0m [33m2ms[0m 
+ [36mArtifact[0m 
+  [36mMATCH[0m (n:`Artifact`)
+  [36mRETURN[0m n 
+ [34mBOLT REQUEST:[0m [33m25ms[0m 
+ [34mBOLT REQUEST:[0m [33m2ms[0m 
+Completed 200 OK in 52ms (Views: 47.8ms)
+
+
+Started GET "/artifacts" for 127.0.0.1 at 2019-03-14 01:07:04 +0100
+Processing by ArtifactsController#index as HTML
+ [34mBOLT REQUEST:[0m [33m5ms[0m 
+ [36mArtifact[0m 
+  [36mMATCH[0m (n:`Artifact`)
+  [36mRETURN[0m n 
+ [34mBOLT REQUEST:[0m [33m5ms[0m 
+ [34mBOLT REQUEST:[0m [33m3ms[0m 
+Completed 200 OK in 40ms (Views: 39.2ms)
+
+
+Started POST "/artifacts" for 127.0.0.1 at 2019-03-14 01:08:47 +0100
+Processing by ArtifactsController#create as */*
+  Parameters: {"url"=>"asdf", "artifact"=>{"url"=>"asdf"}}
+ [34mBOLT REQUEST:[0m [33m2ms[0m 
+ [36mCYPHER[0m CREATE (n:`Artifact`) SET n = {props} RETURN n | {:props=>{:uuid=>"cd559497-648e-4084-9a56-bb15ca6fb9db", :url=>"asdf"}}
+ [34mBOLT REQUEST:[0m [33m36ms[0m 
+ [34mBOLT REQUEST:[0m [33m8ms[0m 
+Completed 201 Created in 91ms (Views: 1.1ms)
+
+
+Started GET "/artifacts" for 127.0.0.1 at 2019-03-14 01:08:52 +0100
+Processing by ArtifactsController#index as HTML
+ [34mBOLT REQUEST:[0m [33m4ms[0m 
+ [36mArtifact[0m 
+  [36mMATCH[0m (n:`Artifact`)
+  [36mRETURN[0m n 
+ [34mBOLT REQUEST:[0m [33m12ms[0m 
+ [34mBOLT REQUEST:[0m [33m2ms[0m 
+Completed 200 OK in 30ms (Views: 29.8ms)
+
+
+Started GET "/artifacts" for 127.0.0.1 at 2019-03-14 01:10:14 +0100
+ [34mBOLT REQUEST:[0m [33m2ms[0m 
+ [34mBOLT REQUEST:[0m [33m7ms[0m 
+ [34mBOLT REQUEST:[0m [33m2ms[0m 
+ [34mBOLT REQUEST:[0m [33m2ms[0m 
+ [34mBOLT REQUEST:[0m [33m4ms[0m 
+ [34mBOLT REQUEST:[0m [33m10ms[0m 
+ [34mBOLT REQUEST:[0m [33m2ms[0m 
+ [34mBOLT REQUEST:[0m [33m4ms[0m 
+ [34mBOLT REQUEST:[0m [33m2ms[0m 
+ [34mBOLT REQUEST:[0m [33m2ms[0m 
+ [36mNeo4j::Migrations::SchemaMigration[0m 
+  [36mMATCH[0m (n:`Neo4j::Migrations::SchemaMigration`)
+  [36mRETURN[0m n 
+ [34mBOLT REQUEST:[0m [33m6ms[0m 
+ [34mBOLT REQUEST:[0m [33m3ms[0m 
+Processing by ArtifactsController#index as HTML
+ [34mBOLT REQUEST:[0m [33m2ms[0m 
+ [34mBOLT REQUEST:[0m [33m3ms[0m 
+ [34mBOLT REQUEST:[0m [33m2ms[0m 
+ [34mBOLT REQUEST:[0m [33m2ms[0m 
+ [34mBOLT REQUEST:[0m [33m5ms[0m 
+ [34mBOLT REQUEST:[0m [33m2ms[0m 
+ [34mBOLT REQUEST:[0m [33m2ms[0m 
+ [36mArtifact[0m 
+  [36mMATCH[0m (n:`Artifact`)
+  [36mRETURN[0m n 
+ [34mBOLT REQUEST:[0m [33m7ms[0m 
+ [34mBOLT REQUEST:[0m [33m2ms[0m 
+Completed 200 OK in 35ms (Views: 31.0ms)
+
+
+  [1m[33mArtifact Import (176.8ms)[0m  {"count":1,"id":"cd559497-648e-4084-9a56-bb15ca6fb9db"}
+Started GET "/tags" for 127.0.0.1 at 2019-03-14 01:26:17 +0100
+ [34mBOLT REQUEST:[0m [33m3ms[0m 
+ [34mBOLT REQUEST:[0m [33m8ms[0m 
+ [34mBOLT REQUEST:[0m [33m8ms[0m 
+ [34mBOLT REQUEST:[0m [33m14ms[0m 
+ [34mBOLT REQUEST:[0m [33m11ms[0m 
+ [34mBOLT REQUEST:[0m [33m3ms[0m 
+ [34mBOLT REQUEST:[0m [33m2ms[0m 
+ [34mBOLT REQUEST:[0m [33m5ms[0m 
+ [34mBOLT REQUEST:[0m [33m3ms[0m 
+ [34mBOLT REQUEST:[0m [33m2ms[0m 
+ [36mNeo4j::Migrations::SchemaMigration[0m 
+  [36mMATCH[0m (n:`Neo4j::Migrations::SchemaMigration`)
+  [36mRETURN[0m n 
+ [34mBOLT REQUEST:[0m [33m5ms[0m 
+ [34mBOLT REQUEST:[0m [33m2ms[0m 
+  
+Neo4j::PendingMigrationError (Migrations are pending:
+20190314002334
+ To resolve this issue, run:
+
+        bin/rails neo4j:migrate RAILS_ENV=development):
+  
+neo4j (9.2.4) lib/neo4j/migrations.rb:17:in `check_for_pending_migrations!'
+neo4j (9.2.4) lib/neo4j/migrations/check_pending.rb:13:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.2.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/favicon.ico" for 127.0.0.1 at 2019-03-14 01:26:17 +0100
+ [34mBOLT REQUEST:[0m [33m5ms[0m 
+ [34mBOLT REQUEST:[0m [33m6ms[0m 
+ [34mBOLT REQUEST:[0m [33m2ms[0m 
+ [34mBOLT REQUEST:[0m [33m4ms[0m 
+ [36mNeo4j::Migrations::SchemaMigration[0m 
+  [36mMATCH[0m (n:`Neo4j::Migrations::SchemaMigration`)
+  [36mRETURN[0m n 
+ [34mBOLT REQUEST:[0m [33m7ms[0m 
+ [34mBOLT REQUEST:[0m [33m3ms[0m 
+  
+Neo4j::PendingMigrationError (Migrations are pending:
+20190314002334
+ To resolve this issue, run:
+
+        bin/rails neo4j:migrate RAILS_ENV=development):
+  
+neo4j (9.2.4) lib/neo4j/migrations.rb:17:in `check_for_pending_migrations!'
+neo4j (9.2.4) lib/neo4j/migrations/check_pending.rb:13:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.2.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+ [34mBOLT REQUEST:[0m [33m1ms[0m 
+ [34mBOLT REQUEST:[0m [33m3ms[0m 
+ [34mBOLT REQUEST:[0m [33m5ms[0m 
+ [34mBOLT REQUEST:[0m [33m3ms[0m 
+ [36mNeo4j::Migrations::SchemaMigration[0m 
+  [36mMATCH[0m (n:`Neo4j::Migrations::SchemaMigration`)
+  [36mRETURN[0m n 
+ [34mBOLT REQUEST:[0m [33m3ms[0m 
+ [34mBOLT REQUEST:[0m [33m4ms[0m 
+ [34mBOLT REQUEST:[0m [33m2ms[0m 
+ [36mCYPHER[0m CREATE (n:`Neo4j::Migrations::SchemaMigration`) SET n = {props} RETURN n | {:props=>{:migration_id=>"20190314002334", :incomplete=>true}}
+ [34mBOLT REQUEST:[0m [33m21ms[0m 
+ [34mBOLT REQUEST:[0m [33m6ms[0m 
+ [34mBOLT REQUEST:[0m [33m2ms[0m 
+ [34mBOLT REQUEST:[0m [33m5ms[0m 
+ [36mCYPHER[0m CREATE CONSTRAINT ON (n:`Tag`) ASSERT n.`uuid` IS UNIQUE 
+ [34mBOLT REQUEST:[0m [33m91ms[0m 
+ [34mBOLT REQUEST:[0m [33m7ms[0m 
+ [34mBOLT REQUEST:[0m [33m2ms[0m 
+ [36mCYPHER[0m 
+  [36mMATCH[0m (n)
+  [36mWHERE[0m (ID(n) = {ID_n})
+  [33mSET[0m n.`incomplete` = {setter_n_incomplete} | {:ID_n=>20, :setter_n_incomplete=>nil}
+ [34mBOLT REQUEST:[0m [33m16ms[0m 
+ [34mBOLT REQUEST:[0m [33m5ms[0m 
+ [34mBOLT REQUEST:[0m [33m2ms[0m 
+ [34mBOLT REQUEST:[0m [33m4ms[0m 
+ [34mBOLT REQUEST:[0m [33m2ms[0m 
+ [34mBOLT REQUEST:[0m [33m1ms[0m 
+ [36mCYPHER[0m CALL db.constraints() 
+ [34mBOLT REQUEST:[0m [33m11ms[0m 
+ [34mBOLT REQUEST:[0m [33m2ms[0m 
+ [34mBOLT REQUEST:[0m [33m2ms[0m 
+ [36mCYPHER[0m CALL db.indexes() 
+ [34mBOLT REQUEST:[0m [33m7ms[0m 
+ [34mBOLT REQUEST:[0m [33m3ms[0m 
+ [34mBOLT REQUEST:[0m [33m2ms[0m 
+ [34mBOLT REQUEST:[0m [33m4ms[0m 
+ [34mBOLT REQUEST:[0m [33m2ms[0m 
+ [34mBOLT REQUEST:[0m [33m2ms[0m 
+ [36mNeo4j::Migrations::SchemaMigration[0m 
+  [36mMATCH[0m (n:`Neo4j::Migrations::SchemaMigration`)
+  [36mRETURN[0m n 
+ [34mBOLT REQUEST:[0m [33m15ms[0m 
+ [34mBOLT REQUEST:[0m [33m2ms[0m 
+Started GET "/tags" for 127.0.0.1 at 2019-03-14 01:26:32 +0100
+ [34mBOLT REQUEST:[0m [33m2ms[0m 
+ [34mBOLT REQUEST:[0m [33m9ms[0m 
+ [34mBOLT REQUEST:[0m [33m4ms[0m 
+ [34mBOLT REQUEST:[0m [33m2ms[0m 
+ [34mBOLT REQUEST:[0m [33m5ms[0m 
+ [34mBOLT REQUEST:[0m [33m2ms[0m 
+ [34mBOLT REQUEST:[0m [33m2ms[0m 
+ [34mBOLT REQUEST:[0m [33m6ms[0m 
+ [34mBOLT REQUEST:[0m [33m2ms[0m 
+ [34mBOLT REQUEST:[0m [33m1ms[0m 
+ [36mNeo4j::Migrations::SchemaMigration[0m 
+  [36mMATCH[0m (n:`Neo4j::Migrations::SchemaMigration`)
+  [36mRETURN[0m n 
+ [34mBOLT REQUEST:[0m [33m4ms[0m 
+ [34mBOLT REQUEST:[0m [33m2ms[0m 
+Processing by TagsController#index as HTML
+ [34mBOLT REQUEST:[0m [33m4ms[0m 
+ [34mBOLT REQUEST:[0m [33m4ms[0m 
+ [34mBOLT REQUEST:[0m [33m2ms[0m 
+ [34mBOLT REQUEST:[0m [33m2ms[0m 
+ [34mBOLT REQUEST:[0m [33m4ms[0m 
+ [34mBOLT REQUEST:[0m [33m2ms[0m 
+ [34mBOLT REQUEST:[0m [33m2ms[0m 
+ [36mTag[0m 
+  [36mMATCH[0m (n:`Tag`)
+  [36mRETURN[0m n 
+ [34mBOLT REQUEST:[0m [33m25ms[0m 
+ [34mBOLT REQUEST:[0m [33m2ms[0m 
+Completed 200 OK in 55ms (Views: 48.2ms)
+
+
+Started GET "/artifacts" for 127.0.0.1 at 2019-03-14 01:26:37 +0100
+Processing by ArtifactsController#index as HTML
+ [34mBOLT REQUEST:[0m [33m4ms[0m 
+ [34mBOLT REQUEST:[0m [33m10ms[0m 
+ [34mBOLT REQUEST:[0m [33m4ms[0m 
+ [34mBOLT REQUEST:[0m [33m2ms[0m 
+ [34mBOLT REQUEST:[0m [33m5ms[0m 
+ [34mBOLT REQUEST:[0m [33m6ms[0m 
+ [34mBOLT REQUEST:[0m [33m2ms[0m 
+ [36mArtifact[0m 
+  [36mMATCH[0m (n:`Artifact`)
+  [36mRETURN[0m n 
+ [34mBOLT REQUEST:[0m [33m16ms[0m 
+ [34mBOLT REQUEST:[0m [33m3ms[0m 
+Completed 200 OK in 170ms (Views: 65.4ms)
+
+
+Started GET "/artifacts" for 127.0.0.1 at 2019-03-14 01:27:45 +0100
+ [34mBOLT REQUEST:[0m [33m4ms[0m 
+ [34mBOLT REQUEST:[0m [33m5ms[0m 
+ [34mBOLT REQUEST:[0m [33m2ms[0m 
+ [34mBOLT REQUEST:[0m [33m1ms[0m 
+ [34mBOLT REQUEST:[0m [33m4ms[0m 
+ [34mBOLT REQUEST:[0m [33m3ms[0m 
+ [34mBOLT REQUEST:[0m [33m3ms[0m 
+ [34mBOLT REQUEST:[0m [33m4ms[0m 
+ [34mBOLT REQUEST:[0m [33m2ms[0m 
+ [34mBOLT REQUEST:[0m [33m1ms[0m 
+ [36mNeo4j::Migrations::SchemaMigration[0m 
+  [36mMATCH[0m (n:`Neo4j::Migrations::SchemaMigration`)
+  [36mRETURN[0m n 
+ [34mBOLT REQUEST:[0m [33m5ms[0m 
+ [34mBOLT REQUEST:[0m [33m2ms[0m 
+Processing by ArtifactsController#index as HTML
+ [34mBOLT REQUEST:[0m [33m2ms[0m 
+ [34mBOLT REQUEST:[0m [33m4ms[0m 
+ [34mBOLT REQUEST:[0m [33m2ms[0m 
+ [34mBOLT REQUEST:[0m [33m1ms[0m 
+ [34mBOLT REQUEST:[0m [33m9ms[0m 
+ [34mBOLT REQUEST:[0m [33m3ms[0m 
+ [34mBOLT REQUEST:[0m [33m3ms[0m 
+ [36mArtifact[0m 
+  [36mMATCH[0m (n:`Artifact`)
+  [36mRETURN[0m n 
+ [34mBOLT REQUEST:[0m [33m5ms[0m 
+ [34mBOLT REQUEST:[0m [33m4ms[0m 
+ [34mBOLT REQUEST:[0m [33m3ms[0m 
+ [34mBOLT REQUEST:[0m [33m8ms[0m 
+ [34mBOLT REQUEST:[0m [33m3ms[0m 
+ [34mBOLT REQUEST:[0m [33m2ms[0m 
+ [34mBOLT REQUEST:[0m [33m8ms[0m 
+ [34mBOLT REQUEST:[0m [33m3ms[0m 
+ [34mBOLT REQUEST:[0m [33m3ms[0m 
+ [36mArtifact#tags[0m 
+  [36mMATCH[0m (previous:`Artifact`)
+  [36mWHERE[0m (ID(previous) = {ID_previous})
+  [36mOPTIONAL MATCH[0m (previous)-[rel1:`tagged_with`]->(next:`Tag`)
+  [36mRETURN[0m 
+    ID(previous), 
+    collect(next) | {:ID_previous=>1}
+ [34mBOLT REQUEST:[0m [33m313ms[0m 
+ [34mBOLT REQUEST:[0m [33m4ms[0m 
+Completed 200 OK in 476ms (Views: 392.9ms)
+
+
+Started GET "/artifacts" for 127.0.0.1 at 2019-03-14 01:31:57 +0100
+ [34mBOLT REQUEST:[0m [33m2ms[0m 
+ [34mBOLT REQUEST:[0m [33m4ms[0m 
+ [34mBOLT REQUEST:[0m [33m2ms[0m 
+ [34mBOLT REQUEST:[0m [33m2ms[0m 
+ [34mBOLT REQUEST:[0m [33m4ms[0m 
+ [34mBOLT REQUEST:[0m [33m2ms[0m 
+ [34mBOLT REQUEST:[0m [33m2ms[0m 
+ [34mBOLT REQUEST:[0m [33m6ms[0m 
+ [34mBOLT REQUEST:[0m [33m3ms[0m 
+ [34mBOLT REQUEST:[0m [33m2ms[0m 
+ [36mNeo4j::Migrations::SchemaMigration[0m 
+  [36mMATCH[0m (n:`Neo4j::Migrations::SchemaMigration`)
+  [36mRETURN[0m n 
+ [34mBOLT REQUEST:[0m [33m6ms[0m 
+ [34mBOLT REQUEST:[0m [33m2ms[0m 
+Processing by ArtifactsController#index as HTML
+ [34mBOLT REQUEST:[0m [33m2ms[0m 
+ [34mBOLT REQUEST:[0m [33m5ms[0m 
+ [34mBOLT REQUEST:[0m [33m2ms[0m 
+ [34mBOLT REQUEST:[0m [33m1ms[0m 
+ [34mBOLT REQUEST:[0m [33m6ms[0m 
+ [34mBOLT REQUEST:[0m [33m2ms[0m 
+ [34mBOLT REQUEST:[0m [33m1ms[0m 
+ [36mArtifact[0m 
+  [36mMATCH[0m (n:`Artifact`)
+  [36mRETURN[0m n 
+ [34mBOLT REQUEST:[0m [33m4ms[0m 
+ [34mBOLT REQUEST:[0m [33m2ms[0m 
+ [34mBOLT REQUEST:[0m [33m2ms[0m 
+ [34mBOLT REQUEST:[0m [33m7ms[0m 
+ [34mBOLT REQUEST:[0m [33m3ms[0m 
+ [34mBOLT REQUEST:[0m [33m3ms[0m 
+ [34mBOLT REQUEST:[0m [33m8ms[0m 
+ [34mBOLT REQUEST:[0m [33m2ms[0m 
+ [34mBOLT REQUEST:[0m [33m2ms[0m 
+ [36mArtifact#tags[0m 
+  [36mMATCH[0m (previous:`Artifact`)
+  [36mWHERE[0m (ID(previous) = {ID_previous})
+  [36mOPTIONAL MATCH[0m (previous)-[rel1:`tagged_with`]->(next:`Tag`)
+  [36mRETURN[0m 
+    ID(previous), 
+    collect(next) | {:ID_previous=>1}
+ [34mBOLT REQUEST:[0m [33m7ms[0m 
+ [34mBOLT REQUEST:[0m [33m3ms[0m 
+Completed 200 OK in 167ms (Views: 75.6ms)
+
+
+  [1m[33mArtifact Import (62.0ms)[0m  {"count":1,"id":"cd559497-648e-4084-9a56-bb15ca6fb9db"}
+  [1m[33mArtifact Import (49.8ms)[0m  {"count":1,"id":"cd559497-648e-4084-9a56-bb15ca6fb9db"}
+  [1m[33mArtifact Import (114.2ms)[0m  {"count":1,"id":"cd559497-648e-4084-9a56-bb15ca6fb9db"}

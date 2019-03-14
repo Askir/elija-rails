@@ -1,0 +1,6 @@
+development:
+  type: bolt
+  url: bolt://:@localhost:7687
+test:
+  type: bolt
+  url: bolt://:@localhost:17687
