@@ -3,7 +3,11 @@ class ArtifactsController < ApplicationController
 
   # GET /artifacts
   def index
-    @artifacts = Artifact.all
+    @artifacts = if params[:search]
+                   Artifact.search params[:search]
+                 else
+                   Artifact.all
+                 end
 
     render json: @artifacts, include: :tags
   end
@@ -39,13 +43,15 @@ class ArtifactsController < ApplicationController
   end
 
   private
-    # Use callbacks to share common setup or constraints between actions.
-    def set_artifact
-      @artifact = Artifact.find(params[:id])
-    end
 
-    # Only allow a trusted parameter "white list" through.
-    def artifact_params
-      params.require(:artifact).permit(:url)
-    end
+  # Use callbacks to share common setup or constraints between actions.
+  def set_artifact
+    @artifact = Artifact.find(params[:id])
+  end
+
+  # Only allow a trusted parameter "white list" through.
+  def artifact_params
+    params.require(:artifact).permit(:url)
+  end
+
 end
